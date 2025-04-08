@@ -33,12 +33,6 @@ public class MyLoginTestcases {
         assert driver.getCurrentUrl().contains("inventory");
     }
 
-    @AfterTest
-    public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-        }
-    }
 }
 
 
